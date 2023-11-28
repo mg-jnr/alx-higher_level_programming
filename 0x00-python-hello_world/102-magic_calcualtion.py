@@ -1,3 +1,6 @@
 #!/usr/bin/python3
 def magic_calculation(a, b):
-    return (a ** b) + 98
+    result = 98  # LOAD_CONST 1 (98)
+    result += a   # LOAD_FAST a
+    result = result ** b  # BINARY_POWER
+    return result  # BINARY_ADD and RETURN_VALUE
