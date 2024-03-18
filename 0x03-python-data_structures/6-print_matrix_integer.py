@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    for i in matrix:
-        for j in i:
-            print("{}".format(j), end=" ")
-        print()
+    if matrix is not None:
+        j = 0
+        for row in matrix:
+            i = 0
+            for element in row:
+                print("{:d} ".format(matrix[j][i]), end="")
+                i = i + 1
+            print()
+            j = j + 1
