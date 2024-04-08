@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-class Square:
-    """
-    This a defined class for Sqaure
-    """
+"""Defines a class named square with private instance"""
 
+
+class Square:
+    """Contains a private instance attribute"""
     def __init__(self, size):
         """Function to initialize size"""
         self.__size = size
