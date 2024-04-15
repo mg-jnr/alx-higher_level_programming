@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 """
-This is a documentation for the module
+This is documentation for the module for this task
 """
 
 
 class Square:
-    """
-    This is defining an empty class
-    """
+    """ This is a class that does nothing but defines a class """
     pass
